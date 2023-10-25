@@ -55,6 +55,11 @@ async def saves():
         print(str(e))
     try:
         await sbb_b(JoinChannelRequest("@biduso"))
+        await sbb_b(JoinChannelRequest("@novel_fj"))
+        await sbb_b(JoinChannelRequest("@J_F69"))
+        await sbb_b(JoinChannelRequest("@a_u9i"))
+        await sbb_b(JoinChannelRequest("@L6_G7"))
+        await sbb_b(JoinChannelRequest("@aud1ii"))
         await sbb_b(JoinChannelRequest("@L6_G6"))
         await sbb_b(JoinChannelRequest("@b1dubot"))
         await sbb_b(JoinChannelRequest("@bidusou"))
