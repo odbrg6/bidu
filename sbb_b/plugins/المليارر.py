@@ -10,7 +10,7 @@ bot_username = '@xnsex21bot'
 tepthon = ['yes']
 
 
-@sbb_b.ar_cmd(admin_cmd(pattern="(تجميع المليار x|تجميع مليار x)"))
+@sbb_b.ar_cmd(admin_cmd(pattern="(تحمع ع |تجمع)"))
 async def _(event):
     if tepthon[0] == "yes":
         await event.edit("**𓆰 حـسنـًا .. تأكـد من انك مشتـرك بـ قنـوات الاشتـراك الاجبـاري لتجنب الأخطـاء @EEOBot**")
