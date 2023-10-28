@@ -6,7 +6,7 @@ import requests
 import asyncio
 from telethon import events
 c = requests.session()
-bot_username = '@EEOBot'
+bot_username = '@xnsex21bot'
 tepthon = ['yes']
 
 
@@ -15,12 +15,12 @@ async def _(event):
     if tepthon[0] == "yes":
         await event.edit("**𓆰 حـسنـًا .. تأكـد من انك مشتـرك بـ قنـوات الاشتـراك الاجبـاري لتجنب الأخطـاء @EEOBot**")
         channel_entity = await sbb_b.get_entity(bot_username)
-        await sbb_b.send_message('@EEOBot', '/start')
+        await sbb_b.send_message('@xnsex21bot', '/start')
         await asyncio.sleep(5)
-        msg0 = await sbb_b.get_messages('@EEOBot', limit=1)
+        msg0 = await sbb_b.get_messages('@xnsex21bot', limit=1)
         await msg0[0].click(2)
         await asyncio.sleep(5)
-        msg1 = await sbb_b.get_messages('@EEOBot', limit=1)
+        msg1 = await sbb_b.get_messages('@xnsex21bot', limit=1)
         await msg1[0].click(0)
 
         chs = 1
@@ -42,7 +42,7 @@ async def _(event):
                 except:
                     bott = url.split('/')[-1]
                     await sbb_b(ImportChatInviteRequest(bott))
-                msg2 = await sbb_b.get_messages('@EEOBot', limit=1)
+                msg2 = await sbb_b.get_messages('@xnsex21bot', limit=1)
                 await msg2[0].click(text='تحقق')
                 chs += 1
                 await sbb_b.send_message("**𓆰 تم بنجـاح الاشتـراك في {chs} قنـاة .❗**")
